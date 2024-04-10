@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    padding: 3px;
+}
+#Grid-Container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    grid-gap: 0px;
+}
+
+#Left {
+    margin: auto;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+#Middle {
+    margin: auto;
+    padding: 12px;
+    border: 1px solid black;
+    max-width: 50%;
+}
+
+#Right {
+    margin: auto;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+ul, a {
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+}
+
+ul li:before {
+    content: "\2665";
+}
